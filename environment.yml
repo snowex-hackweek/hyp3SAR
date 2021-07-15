@@ -1,0 +1,14 @@
+name: hyp3
+channels:
+  - conda-forge
+dependencies:
+  - geopandas
+  - geoviews
+  - hyp3_sdk
+  - hvplot
+  - ipywidgets
+  - jupyterlab>=3
+  - pip
+  - tqdm
+  - pip:
+    - pystac-client
